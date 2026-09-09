@@ -1,0 +1,43 @@
+
+DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+</head>
+<body>
+    <h1>BMI Calculator for Adults</h1>
+    <form id="bmiForm">
+        <label for="height_feet">Height (Feet):</label>
+        <input type="number" id="height_feet" name="height_feet" min="0" required>
+        <label for="height_inches">Height (Inches):</label>
+        <input type="number" id="height_inches" name="height_inches" min="0" max="11" required>
+        <br>
+        <label for="weight">Weight (kg):</label>
+        <input type="number" id="weight" name="weight" min="0" required>
+        <br>
+        <button type="button" onclick="calculateBMI()">Compute BMI</button>
+    </form>
+    <div id="result"></div>
+    <script>
+        function calculateBMI() {
+            const heightFeet = parseInt(document.getElementById('height_feet').value);
+            const heightInches = parseInt(document.getElementById('height_inches').value);
+            const weight = parseInt(document.getElementById('weight').value);
+
+            const heightInchesTotal = heightFeet * 12 + heightInches;
+            const bmi = 703 * weight / (heightInchesTotal ** 2);
+
+            let resultText = '';
+            if (isNaN(bmi)) {
+                resultText = 'Please enter valid inputs.';
+            } else {
+                resultText = 'Your BMI: ' + bmi.toFixed(2);
+            }
+
+            document.getElementById('result').innerText = resultText;
+        }
+    </script>
+</body>
+</html>
