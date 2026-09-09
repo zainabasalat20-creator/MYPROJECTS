@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<FinanceRecord xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Income>0</Income>
+  <Mode />
+  <Grocery>0</Grocery>
+  <Bills>0</Bills>
+  <Fuel>0</Fuel>
+  <Misc>0</Misc>
+  <Savings>0</Savings>
+  <SpentGrocery>200</SpentGrocery>
+  <SpentBills>400</SpentBills>
+  <SpentFuel>600</SpentFuel>
+  <SpentMisc>200</SpentMisc>
+</FinanceRecord>

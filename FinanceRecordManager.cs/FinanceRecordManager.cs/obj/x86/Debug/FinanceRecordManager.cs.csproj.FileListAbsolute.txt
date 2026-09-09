@@ -1,0 +1,26 @@
+C:\Users\PC World Computers\AppData\Local\Temporary Projects\WpfApplication1\obj\x86\Debug\WelcomePage.baml
+C:\Users\PC World Computers\AppData\Local\Temporary Projects\WpfApplication1\obj\x86\Debug\BudgetDivision.baml
+C:\Users\PC World Computers\AppData\Local\Temporary Projects\WpfApplication1\obj\x86\Debug\SpendingWindow.baml
+C:\Users\PC World Computers\AppData\Local\Temporary Projects\WpfApplication1\obj\x86\Debug\WelcomePage.g.cs
+C:\Users\PC World Computers\AppData\Local\Temporary Projects\WpfApplication1\obj\x86\Debug\BudgetDivision.g.cs
+C:\Users\PC World Computers\AppData\Local\Temporary Projects\WpfApplication1\obj\x86\Debug\SpendingWindow.g.cs
+C:\Users\PC World Computers\AppData\Local\Temporary Projects\WpfApplication1\obj\x86\Debug\App.g.cs
+C:\Users\PC World Computers\AppData\Local\Temporary Projects\WpfApplication1\obj\x86\Debug\WpfApplication1_MarkupCompile.cache
+C:\Users\PC World Computers\AppData\Local\Temporary Projects\WpfApplication1\obj\x86\Debug\WpfApplication1.g.resources
+C:\Users\PC World Computers\AppData\Local\Temporary Projects\WpfApplication1\obj\x86\Debug\WpfApplication1.Properties.Resources.resources
+C:\Users\PC World Computers\AppData\Local\Temporary Projects\WpfApplication1\obj\x86\Debug\FinanceRecordManager.cs.csproj.GenerateResource.Cache
+D:\assignment bsse-6\FinanceRecordManager.cs\FinanceRecordManager.cs\obj\x86\Debug\WelcomePage.baml
+D:\assignment bsse-6\FinanceRecordManager.cs\FinanceRecordManager.cs\obj\x86\Debug\BudgetDivision.baml
+D:\assignment bsse-6\FinanceRecordManager.cs\FinanceRecordManager.cs\obj\x86\Debug\SpendingWindow.baml
+D:\assignment bsse-6\FinanceRecordManager.cs\FinanceRecordManager.cs\obj\x86\Debug\WelcomePage.g.cs
+D:\assignment bsse-6\FinanceRecordManager.cs\FinanceRecordManager.cs\obj\x86\Debug\BudgetDivision.g.cs
+D:\assignment bsse-6\FinanceRecordManager.cs\FinanceRecordManager.cs\obj\x86\Debug\SpendingWindow.g.cs
+D:\assignment bsse-6\FinanceRecordManager.cs\FinanceRecordManager.cs\obj\x86\Debug\App.g.cs
+D:\assignment bsse-6\FinanceRecordManager.cs\FinanceRecordManager.cs\obj\x86\Debug\FinanceRecordManager.cs_MarkupCompile.cache
+D:\assignment bsse-6\FinanceRecordManager.cs\FinanceRecordManager.cs\obj\x86\Debug\FinanceRecordManager.cs.g.resources
+D:\assignment bsse-6\FinanceRecordManager.cs\FinanceRecordManager.cs\obj\x86\Debug\WpfApplication1.Properties.Resources.resources
+D:\assignment bsse-6\FinanceRecordManager.cs\FinanceRecordManager.cs\obj\x86\Debug\FinanceRecordManager.cs.csproj.GenerateResource.Cache
+D:\assignment bsse-6\FinanceRecordManager.cs\FinanceRecordManager.cs\bin\Debug\FinanceRecordManager.cs.exe
+D:\assignment bsse-6\FinanceRecordManager.cs\FinanceRecordManager.cs\bin\Debug\FinanceRecordManager.cs.pdb
+D:\assignment bsse-6\FinanceRecordManager.cs\FinanceRecordManager.cs\obj\x86\Debug\FinanceRecordManager.cs.exe
+D:\assignment bsse-6\FinanceRecordManager.cs\FinanceRecordManager.cs\obj\x86\Debug\FinanceRecordManager.cs.pdb
