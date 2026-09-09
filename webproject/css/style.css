@@ -1,0 +1,36 @@
+/* Body background as pista green */
+.body-bg {
+    background-color: #93C572;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Main heading */
+.main-heading {
+    color: #006400; /* Dark green */
+    text-align: center;
+}
+
+/* Flex container to keep divs side-by-side */
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 20px;
+}
+
+/* Common style for both Products and News sections */
+.main-style {
+    background-color: #F8F8F8; /* Off-white */
+    padding: 20px;
+    border-radius: 9px;
+box-shadow: 10px rgba(0,0,0,0.2);
+    width: 48%;
+}
+
+/* Footer styling */
+.footer {
+    text-align: center;
+    margin-top: 40px;
+}
+

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cafeteria Feedback</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      padding: 30px;
+    }
+    .section {
+      display: none;
+      background: #fff;
+      padding: 25px;
+      margin: auto;
+      max-width: 600px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    #form:target, #view:target {
+      display: block;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    label {
+      font-weight: bold;
+      margin-top: 10px;
+      display: block;
+    }
+    input[type="text"], input[type="email"], textarea {
+      width: 100%;
+      padding: 10px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      margin-bottom: 10px;
+    }
+    .btns {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .btns a {
+      text-decoration: none;
+      background: #007BFF;
+      color: white;
+      padding: 10px 20px;
+      margin: 0 10px;
+      border-radius: 6px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: left;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="btns">
+    <a href="#form">Add Form</a>
+    <a href="#view">View Form</a>
+  </div>
+
+  <!-- Add Form Section -->
+  <div id="form" class="section">
+    <h2>Cafeteria Feedback Form</h2>
+    <form id="feedbackForm" onsubmit="return handleSubmit()">
+      <label>Customer Name:</label>
+      <input type="text" name="name" id="name" required>
+
+      <label>Email Address:</label>
+      <input type="email" name="email" id="email">
+
+      <label>Contact Number:</label>
+      <input type="text" name="phone" id="phone">
+
+      <label>Gender:</label>
+      <input type="radio" name="gender" value="Male"> Male
+      <input type="radio" name="gender" value="Female"> Female
+
+      <label>Feedback:</label>
+      <textarea rows="3" name="feedback" id="feedback"></textarea>
+
+      <label>What do you like most (Food Items):</label>
+      <input type="checkbox" name="food" value="Pizza"> Pizza <br>
+      <input type="checkbox" name="food" value="Burger"> Burger <br>
+      <input type="checkbox" name="food" value="Fries"> Fries <br>
+      <input type="checkbox" name="food" value="Sandwich"> Sandwich <br>
+      <input type="checkbox" name="food" value="Biryani"> Biryani <br>
+      <input type="checkbox" name="food" value="Fried Chicken"> Fried Chicken <br><br>
+
+      <div style="text-align:center;">
+        <input type="submit" value="Submit Feedback">
+      </div>
+    </form>
+  </div>
+
+  
+  <div id="view" class="section">
+    <h2>Feedback Data (Dummy View)</h2>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Phone</th>
+        <th>Gender</th>
+        <th>Feedback</th>
+        <th>Food Items</th>
+      </tr>
+      <tr>
+        <td>Ali</td>
+        <td>ali@mail.com</td>
+        <td>123456</td>
+        <td>Male</td>
+        <td>Nice food</td>
+        <td>Pizza, Burger</td>
+      </tr>
+      <tr>
+        <td>Sara</td>
+        <td>sara@mail.com</td>
+        <td>987654</td>
+        <td>Female</td>
+        <td>Excellent service</td>
+        <td>Biryani, Fries</td>
+      </tr>
+      <tr>
+        <td>John</td>
+        <td>john@mail.com</td>
+        <td>555444</td>
+        <td>Male</td>
+        <td>Good quality</td>
+        <td>Sandwich</td>
+      </tr>
+      <tr>
+        <td>Emma</td>
+        <td>emma@mail.com</td>
+        <td>112233</td>
+        <td>Female</td>
+        <td>Awesome taste</td>
+        <td>Fried Chicken</td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- JavaScript Section -->
+  <script>
+    function handleSubmit() {
+      const name = document.getElementById("name").value;
+      const email = document.getElementById("email").value;
+      const phone = document.getElementById("phone").value;
+      const feedback = document.getElementById("feedback").value;
+
+      const gender = document.querySelector('input[name="gender"]:checked');
+      const foods = document.querySelectorAll('input[name="food"]:checked');
+
+      if (!name || !gender || foods.length === 0) {
+        alert("Please fill in all required fields and select food items.");
+        return false;
+      }
+
+      const foodItems = Array.from(foods).map(cb => cb.value).join(", ");
+
+      console.log("Name:", name);
+      console.log("Email:", email);
+      console.log("Phone:", phone);
+      console.log("Gender:", gender.value);
+      console.log("Feedback:", feedback);
+      console.log("Selected Food Items:", foodItems);
+
+      alert("Thank you for your feedback, " + name + "!");
+      return false; 
+    }
+  </script>
+
+</body>
+</html>
